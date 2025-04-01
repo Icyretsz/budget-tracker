@@ -3,11 +3,19 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/shadcn-ui"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {
       "path": "./tsconfig.spec.json"
     }
   ],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
   "extends": "../../tsconfig.base.json"
 }

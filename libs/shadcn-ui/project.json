@@ -1,0 +1,8 @@
+{
+  "name": "shadcn-ui",
+  "root": "libs/shadcn-ui",
+  "sourceRoot": "libs/shadcn-ui/src",
+  "projectType": "library",
+  "targets": {},
+  "tags": []
+}

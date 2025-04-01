@@ -2,12 +2,22 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@my-project/shadcn-ui": ["libs/shadcn-ui/src/index.ts"],
+      "@my-project/shadcn-ui/*": ["libs/shadcn-ui/src/*"]
+    }
+  },
   "references": [
     {
       "path": "./apps/web-e2e"
     },
     {
       "path": "./apps/web"
+    },
+    {
+      "path": "./libs/shadcn-ui"
     }
   ]
 }
